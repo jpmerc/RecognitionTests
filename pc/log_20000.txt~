@@ -1,0 +1,417 @@
+Surface test :  recycleBin_3
+Best mathc :  kiwi_6
+Distance :  132505Confirmation :  0
+------------------------
+Surface test :  recycleBin_7
+Best mathc :  recycleBin_6
+Distance :  727226Confirmation :  1
+------------------------
+Surface test :  recycleBin_C
+Best mathc :  apple_C
+Distance :  1.52213e+08Confirmation :  0
+------------------------
+Surface test :  recycleBin_8
+Best mathc :  apple_4
+Distance :  2.48701e+06Confirmation :  0
+------------------------
+Surface test :  recycleBin_4
+Best mathc :  recycleBin_6
+Distance :  215228Confirmation :  1
+------------------------
+Surface test :  recycleBin_2
+Best mathc :  bowl_1
+Distance :  775330Confirmation :  0
+------------------------
+Surface test :  recycleBin_6
+Best mathc :  recycleBin_4
+Distance :  215228Confirmation :  1
+------------------------
+Surface test :  recycleBin_1
+Best mathc :  recycleBin_7
+Distance :  9.5018e+06Confirmation :  1
+------------------------
+Surface test :  recycleBin_5
+Best mathc :  recycleBin_3
+Distance :  185196Confirmation :  1
+------------------------
+Surface test :  bowl_3
+Best mathc :  cup_4
+Distance :  3.30284e+06Confirmation :  0
+------------------------
+Surface test :  bowl_C
+Best mathc :  sprite_C
+Distance :  1.17865e+08Confirmation :  0
+------------------------
+Surface test :  bowl_10
+Best mathc :  screwdriver_9
+Distance :  274796Confirmation :  0
+------------------------
+Surface test :  bowl_2
+Best mathc :  recycleBin_2
+Distance :  1.20724e+06Confirmation :  0
+------------------------
+Surface test :  bowl_8
+Best mathc :  screwdriver_8
+Distance :  555398Confirmation :  0
+------------------------
+Surface test :  bowl_6
+Best mathc :  sprite_8
+Distance :  331050Confirmation :  0
+------------------------
+Surface test :  bowl_4
+Best mathc :  glass_2
+Distance :  5.03928e+06Confirmation :  0
+------------------------
+Surface test :  bowl_7
+Best mathc :  cup_2
+Distance :  6.5968e+06Confirmation :  0
+------------------------
+Surface test :  bowl_9
+Best mathc :  sprite_5
+Distance :  258598Confirmation :  0
+------------------------
+Surface test :  bowl_1
+Best mathc :  recycleBin_2
+Distance :  775330Confirmation :  0
+------------------------
+Surface test :  bowl_5
+Best mathc :  screwdriver_5
+Distance :  1.45036e+06Confirmation :  0
+------------------------
+Surface test :  sprite_10
+Best mathc :  apple_9
+Distance :  1.05203e+07Confirmation :  0
+------------------------
+Surface test :  sprite_6
+Best mathc :  sprite_8
+Distance :  334710Confirmation :  1
+------------------------
+Surface test :  sprite_5
+Best mathc :  bowl_9
+Distance :  258598Confirmation :  0
+------------------------
+Surface test :  sprite_4
+Best mathc :  glass_7
+Distance :  247904Confirmation :  0
+------------------------
+Surface test :  sprite_8
+Best mathc :  glass_5
+Distance :  183138Confirmation :  0
+------------------------
+Surface test :  sprite_1
+Best mathc :  glass_1
+Distance :  1.98864e+06Confirmation :  0
+------------------------
+Surface test :  sprite_9
+Best mathc :  bowl_9
+Distance :  812066Confirmation :  0
+------------------------
+Surface test :  sprite_C
+Best mathc :  screwdriver_C
+Distance :  4.42653e+07Confirmation :  0
+------------------------
+Surface test :  sprite_2
+Best mathc :  recycleBin_6
+Distance :  236604Confirmation :  0
+------------------------
+Surface test :  sprite_3
+Best mathc :  bowl_5
+Distance :  1.64984e+06Confirmation :  0
+------------------------
+Surface test :  sprite_7
+Best mathc :  glass_2
+Distance :  4.59933e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_2
+Best mathc :  screwdriver_10
+Distance :  604258Confirmation :  1
+------------------------
+Surface test :  screwdriver_10
+Best mathc :  screwdriver_2
+Distance :  604258Confirmation :  1
+------------------------
+Surface test :  screwdriver_7
+Best mathc :  glass_10
+Distance :  241040Confirmation :  0
+------------------------
+Surface test :  screwdriver_1
+Best mathc :  bowl_4
+Distance :  8.70506e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_6
+Best mathc :  glass_1
+Distance :  7.57524e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_C
+Best mathc :  sprite_C
+Distance :  4.42653e+07Confirmation :  0
+------------------------
+Surface test :  screwdriver_5
+Best mathc :  bowl_5
+Distance :  1.45036e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_3
+Best mathc :  cup_2
+Distance :  5.33136e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_9
+Best mathc :  bowl_10
+Distance :  274796Confirmation :  0
+------------------------
+Surface test :  screwdriver_4
+Best mathc :  bowl_1
+Distance :  2.40015e+06Confirmation :  0
+------------------------
+Surface test :  screwdriver_8
+Best mathc :  glass_8
+Distance :  239962Confirmation :  0
+------------------------
+Surface test :  apple_7
+Best mathc :  apple_8
+Distance :  1.55019e+06Confirmation :  1
+------------------------
+Surface test :  apple_3
+Best mathc :  apple_4
+Distance :  1.21087e+06Confirmation :  1
+------------------------
+Surface test :  apple_9
+Best mathc :  apple_2
+Distance :  2.70538e+06Confirmation :  1
+------------------------
+Surface test :  apple_8
+Best mathc :  kiwi_7
+Distance :  463003Confirmation :  0
+------------------------
+Surface test :  apple_2
+Best mathc :  apple_1
+Distance :  1.46624e+06Confirmation :  1
+------------------------
+Surface test :  apple_10
+Best mathc :  apple_5
+Distance :  1.7975e+06Confirmation :  1
+------------------------
+Surface test :  apple_C
+Best mathc :  sprite_10
+Distance :  2.95071e+07Confirmation :  0
+------------------------
+Surface test :  apple_6
+Best mathc :  apple_8
+Distance :  1.462e+06Confirmation :  1
+------------------------
+Surface test :  apple_1
+Best mathc :  apple_7
+Distance :  941741Confirmation :  1
+------------------------
+Surface test :  apple_4
+Best mathc :  apple_3
+Distance :  1.21087e+06Confirmation :  1
+------------------------
+Surface test :  apple_5
+Best mathc :  apple_7
+Distance :  1.99484e+06Confirmation :  1
+------------------------
+Surface test :  glass_4
+Best mathc :  sprite_5
+Distance :  1.67342e+06Confirmation :  0
+------------------------
+Surface test :  glass_1
+Best mathc :  sprite_1
+Distance :  1.98864e+06Confirmation :  0
+------------------------
+Surface test :  glass_3
+Best mathc :  cup_1
+Distance :  5.25128e+06Confirmation :  0
+------------------------
+Surface test :  glass_7
+Best mathc :  glass_8
+Distance :  95210Confirmation :  1
+------------------------
+Surface test :  glass_10
+Best mathc :  screwdriver_7
+Distance :  241040Confirmation :  0
+------------------------
+Surface test :  glass_2
+Best mathc :  sprite_7
+Distance :  4.59933e+06Confirmation :  0
+------------------------
+Surface test :  glass_6
+Best mathc :  cup_10
+Distance :  228526Confirmation :  0
+------------------------
+Surface test :  glass_9
+Best mathc :  sprite_6
+Distance :  358046Confirmation :  0
+------------------------
+Surface test :  glass_5
+Best mathc :  sprite_8
+Distance :  183138Confirmation :  0
+------------------------
+Surface test :  glass_C
+Best mathc :  cup_C
+Distance :  3.68115e+07Confirmation :  0
+------------------------
+Surface test :  glass_8
+Best mathc :  glass_7
+Distance :  95210Confirmation :  1
+------------------------
+Surface test :  cup_8
+Best mathc :  cup_5
+Distance :  185754Confirmation :  1
+------------------------
+Surface test :  cup_5
+Best mathc :  cup_8
+Distance :  185754Confirmation :  1
+------------------------
+Surface test :  cup_9
+Best mathc :  glass_3
+Distance :  1.11819e+07Confirmation :  0
+------------------------
+Surface test :  cup_C
+Best mathc :  glass_C
+Distance :  3.68115e+07Confirmation :  0
+------------------------
+Surface test :  cup_1
+Best mathc :  glass_3
+Distance :  5.25128e+06Confirmation :  0
+------------------------
+Surface test :  cup_3
+Best mathc :  sprite_1
+Distance :  1.99173e+06Confirmation :  0
+------------------------
+Surface test :  cup_4
+Best mathc :  bowl_3
+Distance :  3.30284e+06Confirmation :  0
+------------------------
+Surface test :  cup_10
+Best mathc :  glass_6
+Distance :  228526Confirmation :  0
+------------------------
+Surface test :  cup_2
+Best mathc :  sprite_1
+Distance :  4.12641e+06Confirmation :  0
+------------------------
+Surface test :  cup_6
+Best mathc :  bowl_6
+Distance :  666838Confirmation :  0
+------------------------
+Surface test :  cup_7
+Best mathc :  cup_10
+Distance :  410198Confirmation :  1
+------------------------
+Surface test :  mountainDew_1
+Best mathc :  mountainDew_7
+Distance :  2.89263e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_2
+Best mathc :  mountainDew_7
+Distance :  3.38787e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_C
+Best mathc :  apple_C
+Distance :  9.82502e+07Confirmation :  0
+------------------------
+Surface test :  mountainDew_9
+Best mathc :  recycleBin_6
+Distance :  752442Confirmation :  0
+------------------------
+Surface test :  mountainDew_5
+Best mathc :  mountainDew_9
+Distance :  2.19315e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_10
+Best mathc :  mountainDew_3
+Distance :  434112Confirmation :  1
+------------------------
+Surface test :  mountainDew_3
+Best mathc :  mountainDew_10
+Distance :  2.1023e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_7
+Best mathc :  mountainDew_9
+Distance :  1.92549e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_4
+Best mathc :  kiwi_7
+Distance :  2.0521e+06Confirmation :  0
+------------------------
+Surface test :  mountainDew_6
+Best mathc :  mountainDew_2
+Distance :  5.99889e+06Confirmation :  1
+------------------------
+Surface test :  mountainDew_8
+Best mathc :  recycleBin_7
+Distance :  3.14417e+06Confirmation :  0
+------------------------
+Surface test :  crate_5
+Best mathc :  sprite_3
+Distance :  1.14672e+07Confirmation :  0
+------------------------
+Surface test :  crate_6
+Best mathc :  crate_2
+Distance :  1.01482e+07Confirmation :  1
+------------------------
+Surface test :  crate_2
+Best mathc :  crate_6
+Distance :  1.01482e+07Confirmation :  1
+------------------------
+Surface test :  crate_4
+Best mathc :  sprite_3
+Distance :  1.74823e+07Confirmation :  0
+------------------------
+Surface test :  crate_C
+Best mathc :  sprite_C
+Distance :  3.01724e+08Confirmation :  0
+------------------------
+Surface test :  crate_1
+Best mathc :  bowl_10
+Distance :  6.49547e+06Confirmation :  0
+------------------------
+Surface test :  crate_3
+Best mathc :  screwdriver_4
+Distance :  4.67073e+07Confirmation :  0
+------------------------
+Surface test :  kiwi_1
+Best mathc :  kiwi_7
+Distance :  226208Confirmation :  1
+------------------------
+Surface test :  kiwi_7
+Best mathc :  kiwi_4
+Distance :  326373Confirmation :  1
+------------------------
+Surface test :  kiwi_5
+Best mathc :  kiwi_6
+Distance :  74844Confirmation :  1
+------------------------
+Surface test :  kiwi_3
+Best mathc :  kiwi_5
+Distance :  149148Confirmation :  1
+------------------------
+Surface test :  kiwi_C
+Best mathc :  mountainDew_4
+Distance :  1.02054e+07Confirmation :  0
+------------------------
+Surface test :  kiwi_9
+Best mathc :  kiwi_10
+Distance :  51430Confirmation :  1
+------------------------
+Surface test :  kiwi_4
+Best mathc :  kiwi_7
+Distance :  219110Confirmation :  1
+------------------------
+Surface test :  kiwi_10
+Best mathc :  kiwi_9
+Distance :  51430Confirmation :  1
+------------------------
+Surface test :  kiwi_8
+Best mathc :  kiwi_5
+Distance :  135968Confirmation :  1
+------------------------
+Surface test :  kiwi_2
+Best mathc :  kiwi_5
+Distance :  274452Confirmation :  1
+------------------------
+Surface test :  kiwi_6
+Best mathc :  kiwi_5
+Distance :  47441Confirmation :  1
+------------------------
+The recognition percentage is : 0%

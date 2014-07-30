@@ -56,6 +56,38 @@ float calculatePercentage(std::vector<bool> p_vector)
     return percentage;
 }
 
+std::vector<double> calculatePercentage(std::vector<int> in_vector)
+{
+    std::vector<double> results;
+
+    double good_recognition_counter = 0; // 1
+    double bad_recognition_counter = 0;  // 0
+    double not_recognized_counter = 0;   // -1
+
+    for(int i = 0; i < in_vector.size(); i++)
+    {
+        if(in_vector.at(i) == 1){
+            good_recognition_counter++;
+        }
+        else if(in_vector.at(i) == 0){
+            bad_recognition_counter++;
+        }
+        else{
+            not_recognized_counter++;
+        }
+    }
+    double recognition_percentage = good_recognition_counter/(good_recognition_counter + bad_recognition_counter);
+    recognition_percentage = recognition_percentage*100;
+
+    double unrecognized_percentage = not_recognized_counter / (in_vector.size());
+    unrecognized_percentage = unrecognized_percentage * 100;
+
+    results.push_back(recognition_percentage);
+    results.push_back(unrecognized_percentage);
+
+    return results;
+}
+
 boost::filesystem3::path getPointCloudPathFromSignaturePath(boost::filesystem3::path base_pc_path, boost::filesystem3::path sig_filename){
     std::string path;
 
@@ -197,7 +229,6 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
                 int histogram_index_fine = NN_object_indices.at(1).at(fine_index);
                 ofs << "Best match :  " << nameVector.at(histogram_index_fine) << std::endl;
                 ofs << "Best match :  " << nameVector.at(histogram_index_fine) << std::endl;
-                // std::cout << "The object is -> " << nameVector.at(histogram_index_fine) << "for the fine transform" << std::endl;
                 bool good_recognition = compareName(pathObjectTemp.stem().c_str(), nameVector.at(histogram_index_fine));
                 if(good_recognition){
                     fine_results.push_back(1);
@@ -221,12 +252,12 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
             ofs << std::endl;
             ofs << "COARSE RECOGNITION (with sampled pointcloud)" << std::endl;
             ofs << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
-            ofs << "ICP Time (s) :  " << time_fine<< std::endl;
+            ofs << "ICP Time (s) :  " << time_coarse<< std::endl;
 
             std::cout << std::endl;
             std::cout << "COARSE RECOGNITION (with sampled pointcloud)" << std::endl;
             std::cout << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
-            std::cout << "ICP Time (s) :  " << time_fine<< std::endl;
+            std::cout << "ICP Time (s) :  " << time_coarse<< std::endl;
 
             if(coarse_index >= 0){
                 int histogram_index_coarse = NN_object_indices.at(1).at(coarse_index);
@@ -258,9 +289,18 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
         dirItObject++;
     }
 
+    std::vector<double> fineResults = calculatePercentage(fine_results);
+    std::vector<double> coarseResults = calculatePercentage(coarse_results);
     //float percentage = calculatePercentage(confirmationVector);
-    //std::cout << "The percentage is " << percentage << "%" << std::endl;
-    //ofs << "The recognition percentage is : " << percentage << "%" << std::endl;
+    std::cout << "The fine recognition percentage is " << fineResults.at(0) << "%" << std::endl;
+    std::cout << "The percentage of unrecognized objects with fine recognition is " << fineResults.at(1) << "%" << std::endl;
+    std::cout << "The coarse recognition percentage is " << coarseResults.at(0) << "%" << std::endl;
+    std::cout << "The percentage of unrecognized objects with coarse recognition is " << coarseResults.at(1) << "%" << std::endl;
+
+    ofs << "The fine recognition percentage is " << fineResults.at(0) << "%" << std::endl;
+    ofs << "The percentage of unrecognized objects with fine recognition is " << fineResults.at(1) << "%" << std::endl;
+    ofs << "The coarse recognition percentage is " << coarseResults.at(0) << "%" << std::endl;
+    ofs << "The percentage of unrecognized objects with coarse recognition is " << coarseResults.at(1) << "%" << std::endl;
     ofs.close();
 }
 
@@ -274,7 +314,7 @@ int main(int argc, char** argv)
     std::string CVFHSIGNATUREPATH = argv[1];
     std::string OBJECTLOAD = argv[2];
     std::vector<int> vectorThresold;
-    vectorThresold.push_back(10000);
+    vectorThresold.push_back(1);
 //    vectorThresold.push_back(20000);
 //    vectorThresold.push_back(50000);
 //    vectorThresold.push_back(100000);

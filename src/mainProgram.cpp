@@ -57,7 +57,14 @@ float calculatePercentage(std::vector<bool> p_vector)
 }
 
 boost::filesystem3::path getPointCloudPathFromSignaturePath(boost::filesystem3::path base_pc_path, boost::filesystem3::path sig_filename){
-    boost::filesystem3::path new_path = base_pc_path.parent_path() + sig_filename.filename();
+    std::string path;
+
+    boost::filesystem3::path filename = sig_filename.leaf();
+    sig_filename.remove_leaf();
+    boost::filesystem3::path file_repository = sig_filename.leaf();
+    path = base_pc_path.string() + file_repository.string() + "/" + filename.string();
+
+    boost::filesystem3::path new_path(path);
     return new_path;
 }
 
@@ -80,11 +87,15 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
     std::string saveFile = ss.str();
     std::ofstream ofs(saveFile.c_str());
 
-    std::vector<bool> confirmationVector;
+    std::vector<int> fine_results;
+    std::vector<int> coarse_results;
+    std::vector<double> fine_results_time;
+    std::vector<double> coarse_results_time;
 
     boost::filesystem3::path pathObject(p_object);
     boost::filesystem3::recursive_directory_iterator dirItObject(pathObject);
 
+    // Loop for 1 object
     while(dirItObject != boost::filesystem3::recursive_directory_iterator())
     {
         boost::filesystem3::path pathObjectTemp;
@@ -105,19 +116,22 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
             std::vector<std::string> nameVector;
             std::vector<int> signaturesPerObject;
             pcl::PointCloud<pcl::VFHSignature308>::Ptr signatureCloud_ptr(new pcl::PointCloud<pcl::VFHSignature308>);
-            std::vector<boost::filesystem3::path> fullCloud_vector_paths;
+            std::vector<boost::filesystem3::path> fullCloud_paths;
 
             boost::filesystem3::path pathTemp;
-            //populate the signature cloud
+
+            //populate the signature cloud with all the signatures, except it's own
             while(dirItSignature != boost::filesystem3::recursive_directory_iterator())
             {
                 pathTemp  = * dirItSignature;
                 if(!boost::filesystem3::is_directory(pathTemp) and pathTemp.extension() == ".pcd" && pathTemp.filename() != pathObjectTemp.filename())
                 {
+                    std::cout << "Loading PointClouds" << std::endl;
+
                     // Load signatures
                     pcl::PointCloud<pcl::VFHSignature308> tempSig;
                     pcl::io::loadPCDFile(pathTemp.c_str(), tempSig);
-                    signaturesPerObject.push_back(tempSig.size());
+
                     for(int i = 0; i < tempSig.size(); i ++)
                     {
                         signatureCloud_ptr->push_back(tempSig.at(i));
@@ -125,10 +139,11 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
                     }
 
                     //Load related pointcloud paths
-
                     boost::filesystem3::path pc_path = getPointCloudPathFromSignaturePath(pathObject,pathTemp);
-                    //
-                    fullCloud_vector_paths.push_back(pc_path);
+
+                    // Push the names of pointclouds and how many surfaces per object was found by our-cvfh
+                    fullCloud_paths.push_back(pc_path);
+                    signaturesPerObject.push_back(tempSig.size());
 
                 }
 
@@ -145,79 +160,107 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
             pcl::PointCloud<pcl::VFHSignature308>::Ptr signatureLoaded_ptr(new pcl::PointCloud<pcl::VFHSignature308>);
             signatureLoaded_ptr = objectRecon.makeCVFH(loadedCloud);
 
+            std::cout << "Finding Hypotheses for Recognition" << std::endl;
+
             // *Recognition
-            std::vector<std::vector<int> > NN_object_indices = objectRecon.getNNSurfaces(signatureLoaded_ptr,signatureCloud_ptr);
+            std::vector<std::vector<int> > NN_object_indices = objectRecon.getNNSurfaces(signatureLoaded_ptr,signatureCloud_ptr,5);
             std::vector<pcl::PointCloud<PointT>::Ptr> pc_hypotheses;
             for(int i=0; i < NN_object_indices.at(1).size(); i++){
                 int pc_index = getPointCloudIndexFromHistogramIndex(NN_object_indices.at(1).at(i),&signaturesPerObject);
                 pcl::PointCloud<PointT>::Ptr tempCloud(new pcl::PointCloud<PointT>);
-                pcl::io::loadPCDFile(fullCloud_vector_paths.at(pc_index).c_str(), tempCloud);
+                std::string path = fullCloud_paths.at(pc_index).string();
+                pcl::io::loadPCDFile(path.c_str(), *tempCloud);
                 pc_hypotheses.push_back(tempCloud);
             }
 
+            std::cout << "Starting Recognition" << std::endl;
             std::vector<double> results = objectRecon.OURCVFHRecognition(loadedCloud,pc_hypotheses);
             int fine_index = results.at(0);
             int coarse_index = results.at(1);
+            double time_fine = results.at(2);
+            double time_coarse = results.at(3);
+
+            // Push time for stats at the end
+            fine_results_time.push_back(time_fine);
+            coarse_results_time.push_back(time_coarse);
+
+            // Write in log file (ofs) and push some data to compile stats at the end
+
+            ofs << "FINE RECOGNITION (with full pointcloud)" << std::endl;
+            ofs << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
+            ofs << "ICP Time (s) :  " << time_fine<< std::endl;
+            std::cout << "FINE RECOGNITION (with full pointcloud)" << std::endl;
+            std::cout << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
+            std::cout << "ICP Time (s) :  " << time_fine<< std::endl;
 
             if(fine_index >=0){
                 int histogram_index_fine = NN_object_indices.at(1).at(fine_index);
-                double time_fine = results.at(2);
-                std::cout << "The object is -> " << nameVector.at(histogram_index_fine) << "for the fine transform" << std::endl;
-
-                //Complete to gather the results
-
+                ofs << "Best match :  " << nameVector.at(histogram_index_fine) << std::endl;
+                ofs << "Best match :  " << nameVector.at(histogram_index_fine) << std::endl;
+                // std::cout << "The object is -> " << nameVector.at(histogram_index_fine) << "for the fine transform" << std::endl;
+                bool good_recognition = compareName(pathObjectTemp.stem().c_str(), nameVector.at(histogram_index_fine));
+                if(good_recognition){
+                    fine_results.push_back(1);
+                    ofs << "Good recognition :  " <<  "Yes" << std::endl;
+                    std::cout << "Good recognition :  " <<  "Yes" << std::endl;
+                }
+                else{
+                    fine_results.push_back(0);
+                    ofs << "Good recognition :  " <<  "No" << std::endl;
+                    std::cout << "Good recognition :  " <<  "No" << std::endl;
+                }
             }
             else{
-                //Count the number of unfound object and output a stats
+                fine_results.push_back(-1);
+                ofs << "Good recognition :  " <<  "Unable to find a good match" << std::endl;
+                std::cout << "Good recognition :  " <<  "Unable to find a good match" << std::endl;
             }
 
+
+
+            ofs << std::endl;
+            ofs << "COARSE RECOGNITION (with sampled pointcloud)" << std::endl;
+            ofs << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
+            ofs << "ICP Time (s) :  " << time_fine<< std::endl;
+
+            std::cout << std::endl;
+            std::cout << "COARSE RECOGNITION (with sampled pointcloud)" << std::endl;
+            std::cout << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
+            std::cout << "ICP Time (s) :  " << time_fine<< std::endl;
 
             if(coarse_index >= 0){
                 int histogram_index_coarse = NN_object_indices.at(1).at(coarse_index);
-                double time_coarse = results.at(3);
-                std::cout << "The object is -> " << nameVector.at(histogram_index_coarse) << "for the coarse transform" << std::endl;
+                ofs << "Best match :  " << nameVector.at(histogram_index_coarse) << std::endl;
+                std::cout << "Best match :  " << nameVector.at(histogram_index_coarse) << std::endl;
+                // std::cout << "The object is -> " << nameVector.at(histogram_index_coarse) << "for the coarse transform" << std::endl;
+                bool good_recognition = compareName(pathObjectTemp.stem().c_str(), nameVector.at(histogram_index_coarse));
+                if(good_recognition){
+                    coarse_results.push_back(1);
+                    ofs << "Good recognition :  " <<  "Yes" << std::endl;
+                    std::cout << "Good recognition :  " <<  "Yes" << std::endl;
+                }
+                else{
+                    coarse_results.push_back(0);
+                    ofs << "Good recognition :  " <<  "No" << std::endl;
+                    std::cout << "Good recognition :  " <<  "No" << std::endl;
+                }
             }
 
             else{
-
-
-
+                coarse_results.push_back(-1);
+                ofs << "Good recognition :  " <<  "Unable to find a good match" << std::endl;
+                std::cout << "Good recognition :  " <<  "Unable to find a good match" << std::endl;
             }
 
-
-
-
-
-
-
-            //std::vector<float> vectorResult;
-            //vectorResult = objectRecon.histogramComparisonVector(signatureLoaded_ptr,signatureCloud_ptr);
-
-
-
-            bool confir = compareName(pathObjectTemp.stem().c_str(), nameVector.at(histogram_index_fine));
-
-            float score = vectorResult[1];
-
-            if(confir and score < p_thresold)
-            {
-                confirmationVector.push_back(true);
-            }
-            else
-            {
-                confirmationVector.push_back(false);
-            }
-            ofs << "Surface test :  " << pathObjectTemp.stem().c_str() << std::endl;
-            ofs << "Best mathc :  " << nameVector.at(vectorResult[0]) << std::endl;
-            ofs << "Distance :  " << vectorResult[1] << std::endl;
-            ofs << "Confirmation :  " <<  confir << std::endl;
             ofs << "------------------------" << std::endl;
+            std::cout << "------------------------" << std::endl;
         }
         dirItObject++;
     }
-    float percentage = calculatePercentage(confirmationVector);
-    std::cout << "The percentage is " << percentage << "%" << std::endl;
-    ofs << "The recognition percentage is : " << percentage << "%" << std::endl;
+
+    //float percentage = calculatePercentage(confirmationVector);
+    //std::cout << "The percentage is " << percentage << "%" << std::endl;
+    //ofs << "The recognition percentage is : " << percentage << "%" << std::endl;
     ofs.close();
 }
 

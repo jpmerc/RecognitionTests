@@ -1,0 +1,1167 @@
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_8
+ICP Time (s) :  237
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_8
+ICP Time (s) :  209
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_6
+ICP Time (s) :  219
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_6
+ICP Time (s) :  190
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_7
+ICP Time (s) :  979
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_7
+ICP Time (s) :  860
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_C
+ICP Time (s) :  3701
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_C
+ICP Time (s) :  3270
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_9
+ICP Time (s) :  80
+Best match :  bowl_9
+Best match :  bowl_9
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_9
+ICP Time (s) :  70
+Best match :  bowl_9
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_4
+ICP Time (s) :  175
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_4
+ICP Time (s) :  150
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_10
+ICP Time (s) :  700
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_10
+ICP Time (s) :  605
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_5
+ICP Time (s) :  120
+Best match :  bowl_10
+Best match :  bowl_10
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_5
+ICP Time (s) :  105
+Best match :  bowl_10
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_3
+ICP Time (s) :  361
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_3
+ICP Time (s) :  320
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_2
+ICP Time (s) :  150
+Best match :  recycleBin_6
+Best match :  recycleBin_6
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_2
+ICP Time (s) :  130
+Best match :  recycleBin_6
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  sprite_1
+ICP Time (s) :  650
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  sprite_1
+ICP Time (s) :  575
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_10
+ICP Time (s) :  1180
+Best match :  mountainDew_3
+Best match :  mountainDew_3
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_10
+ICP Time (s) :  780
+Best match :  mountainDew_3
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_1
+ICP Time (s) :  390
+Best match :  mountainDew_2
+Best match :  mountainDew_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_1
+ICP Time (s) :  255
+Best match :  mountainDew_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_6
+ICP Time (s) :  3750
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_6
+ICP Time (s) :  2521
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_3
+ICP Time (s) :  1550
+Best match :  mountainDew_10
+Best match :  mountainDew_10
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_3
+ICP Time (s) :  1050
+Best match :  mountainDew_10
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_9
+ICP Time (s) :  185
+Best match :  mountainDew_7
+Best match :  mountainDew_7
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_9
+ICP Time (s) :  120
+Best match :  mountainDew_7
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_4
+ICP Time (s) :  1650
+Best match :  mountainDew_1
+Best match :  mountainDew_1
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_4
+ICP Time (s) :  1100
+Best match :  mountainDew_1
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_7
+ICP Time (s) :  370
+Best match :  mountainDew_2
+Best match :  mountainDew_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_7
+ICP Time (s) :  245
+Best match :  mountainDew_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_5
+ICP Time (s) :  215
+Best match :  mountainDew_7
+Best match :  mountainDew_7
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_5
+ICP Time (s) :  140
+Best match :  mountainDew_7
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_8
+ICP Time (s) :  2205
+Best match :  mountainDew_3
+Best match :  mountainDew_3
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_8
+ICP Time (s) :  1485
+Best match :  mountainDew_3
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_2
+ICP Time (s) :  1485
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_2
+ICP Time (s) :  975
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  mountainDew_C
+ICP Time (s) :  50022
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  mountainDew_C
+ICP Time (s) :  32507
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_2
+ICP Time (s) :  625
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_2
+ICP Time (s) :  605
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_9
+ICP Time (s) :  1335
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_9
+ICP Time (s) :  1289
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_3
+ICP Time (s) :  781
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_3
+ICP Time (s) :  757
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_1
+ICP Time (s) :  1481
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_1
+ICP Time (s) :  1428
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_5
+ICP Time (s) :  220
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_5
+ICP Time (s) :  205
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_C
+ICP Time (s) :  3630
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_C
+ICP Time (s) :  3525
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_4
+ICP Time (s) :  1195
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_4
+ICP Time (s) :  1150
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_7
+ICP Time (s) :  325
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_7
+ICP Time (s) :  310
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_6
+ICP Time (s) :  230
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_6
+ICP Time (s) :  225
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_8
+ICP Time (s) :  215
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_8
+ICP Time (s) :  205
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  cup_10
+ICP Time (s) :  290
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  cup_10
+ICP Time (s) :  280
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_9
+ICP Time (s) :  175
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_9
+ICP Time (s) :  165
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_8
+ICP Time (s) :  175
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_8
+ICP Time (s) :  165
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_3
+ICP Time (s) :  1610
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_3
+ICP Time (s) :  1540
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_6
+ICP Time (s) :  230
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_6
+ICP Time (s) :  220
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_10
+ICP Time (s) :  45
+Best match :  screwdriver_7
+Best match :  screwdriver_7
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_10
+ICP Time (s) :  40
+Best match :  screwdriver_7
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_2
+ICP Time (s) :  905
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_2
+ICP Time (s) :  870
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_C
+ICP Time (s) :  3410
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_C
+ICP Time (s) :  3265
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_1
+ICP Time (s) :  657
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_1
+ICP Time (s) :  628
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_5
+ICP Time (s) :  195
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_5
+ICP Time (s) :  185
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_7
+ICP Time (s) :  167
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_7
+ICP Time (s) :  156
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  glass_4
+ICP Time (s) :  110
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  glass_4
+ICP Time (s) :  105
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_8
+ICP Time (s) :  515
+Best match :  apple_4
+Best match :  apple_4
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_8
+ICP Time (s) :  356
+Best match :  apple_4
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_3
+ICP Time (s) :  100
+Best match :  recycleBin_5
+Best match :  recycleBin_5
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_3
+ICP Time (s) :  70
+Best match :  recycleBin_5
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_7
+ICP Time (s) :  185
+Best match :  recycleBin_6
+Best match :  recycleBin_6
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_7
+ICP Time (s) :  128
+Best match :  recycleBin_6
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_6
+ICP Time (s) :  150
+Best match :  sprite_2
+Best match :  sprite_2
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_6
+ICP Time (s) :  110
+Best match :  sprite_2
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_4
+ICP Time (s) :  110
+Best match :  recycleBin_6
+Best match :  recycleBin_6
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_4
+ICP Time (s) :  75
+Best match :  recycleBin_6
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_C
+ICP Time (s) :  56239
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_C
+ICP Time (s) :  37375
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_1
+ICP Time (s) :  640
+Best match :  mountainDew_6
+Best match :  mountainDew_6
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_1
+ICP Time (s) :  440
+Best match :  mountainDew_6
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_5
+ICP Time (s) :  115
+Best match :  recycleBin_4
+Best match :  recycleBin_4
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_5
+ICP Time (s) :  80
+Best match :  recycleBin_4
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  recycleBin_2
+ICP Time (s) :  676
+Best match :  cup_3
+Best match :  cup_3
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  recycleBin_2
+ICP Time (s) :  470
+Best match :  cup_3
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_C
+ICP Time (s) :  7369
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_C
+ICP Time (s) :  2601
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_10
+ICP Time (s) :  1170
+Best match :  apple_9
+Best match :  apple_9
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_10
+ICP Time (s) :  410
+Best match :  apple_9
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_4
+ICP Time (s) :  1180
+Best match :  apple_3
+Best match :  apple_3
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_4
+ICP Time (s) :  420
+Best match :  apple_3
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_8
+ICP Time (s) :  275
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_8
+ICP Time (s) :  95
+Best match :  apple_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_7
+ICP Time (s) :  620
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_7
+ICP Time (s) :  220
+Best match :  apple_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_6
+ICP Time (s) :  1365
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_6
+ICP Time (s) :  495
+Best match :  apple_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_2
+ICP Time (s) :  650
+Best match :  apple_C
+Best match :  apple_C
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_2
+ICP Time (s) :  225
+Best match :  apple_C
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_3
+ICP Time (s) :  605
+Best match :  apple_4
+Best match :  apple_4
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_3
+ICP Time (s) :  220
+Best match :  apple_4
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_5
+ICP Time (s) :  270
+Best match :  apple_10
+Best match :  apple_10
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_5
+ICP Time (s) :  96
+Best match :  apple_10
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_9
+ICP Time (s) :  1491
+Best match :  apple_C
+Best match :  apple_C
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_9
+ICP Time (s) :  531
+Best match :  apple_C
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  apple_1
+ICP Time (s) :  823
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  Yes
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  apple_1
+ICP Time (s) :  290
+Best match :  apple_2
+Good recognition :  Yes
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_7
+ICP Time (s) :  35
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_7
+ICP Time (s) :  30
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_C
+ICP Time (s) :  5120
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_C
+ICP Time (s) :  4436
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_8
+ICP Time (s) :  175
+Best match :  glass_9
+Best match :  glass_9
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_8
+ICP Time (s) :  150
+Best match :  glass_9
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_3
+ICP Time (s) :  950
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_3
+ICP Time (s) :  809
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_4
+ICP Time (s) :  601
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_4
+ICP Time (s) :  520
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_5
+ICP Time (s) :  418
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_5
+ICP Time (s) :  360
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_10
+ICP Time (s) :  250
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_10
+ICP Time (s) :  210
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_6
+ICP Time (s) :  735
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_6
+ICP Time (s) :  635
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_2
+ICP Time (s) :  215
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_2
+ICP Time (s) :  190
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_9
+ICP Time (s) :  120
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_9
+ICP Time (s) :  110
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  screwdriver_1
+ICP Time (s) :  976
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  screwdriver_1
+ICP Time (s) :  850
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_7
+ICP Time (s) :  625
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_7
+ICP Time (s) :  576
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_1
+ICP Time (s) :  555
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_1
+ICP Time (s) :  505
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_3
+ICP Time (s) :  1155
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_3
+ICP Time (s) :  1060
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_C
+ICP Time (s) :  2865
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_C
+ICP Time (s) :  2645
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_8
+ICP Time (s) :  150
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_8
+ICP Time (s) :  135
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_4
+ICP Time (s) :  1070
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_4
+ICP Time (s) :  985
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_5
+ICP Time (s) :  334
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_5
+ICP Time (s) :  305
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_2
+ICP Time (s) :  515
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_2
+ICP Time (s) :  466
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_10
+ICP Time (s) :  130
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_10
+ICP Time (s) :  120
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_9
+ICP Time (s) :  105
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_9
+ICP Time (s) :  95
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  bowl_6
+ICP Time (s) :  220
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  bowl_6
+ICP Time (s) :  200
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_5
+ICP Time (s) :  430
+Best match :  apple_1
+Best match :  apple_1
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_5
+ICP Time (s) :  80
+Best match :  apple_1
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_9
+ICP Time (s) :  370
+Best match :  mountainDew_8
+Best match :  mountainDew_8
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_9
+ICP Time (s) :  61
+Best match :  mountainDew_8
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_4
+ICP Time (s) :  340
+Best match :  mountainDew_8
+Best match :  mountainDew_8
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_4
+ICP Time (s) :  60
+Best match :  mountainDew_8
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_2
+ICP Time (s) :  410
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_2
+ICP Time (s) :  75
+Best match :  apple_2
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_C
+ICP Time (s) :  9363
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_C
+ICP Time (s) :  1665
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_10
+ICP Time (s) :  135
+Best match :  mountainDew_8
+Best match :  mountainDew_8
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_10
+ICP Time (s) :  25
+Best match :  mountainDew_8
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_1
+ICP Time (s) :  425
+Best match :  apple_2
+Best match :  apple_2
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_1
+ICP Time (s) :  80
+Best match :  apple_2
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_7
+ICP Time (s) :  360
+Best match :  mountainDew_1
+Best match :  mountainDew_1
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_7
+ICP Time (s) :  65
+Best match :  mountainDew_1
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_3
+ICP Time (s) :  500
+Best match :  mountainDew_8
+Best match :  mountainDew_8
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_3
+ICP Time (s) :  90
+Best match :  mountainDew_8
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_8
+ICP Time (s) :  141
+Best match :  mountainDew_8
+Best match :  mountainDew_8
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_8
+ICP Time (s) :  25
+Best match :  mountainDew_8
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  kiwi_6
+ICP Time (s) :  175
+Best match :  apple_1
+Best match :  apple_1
+Good recognition :  No
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  kiwi_6
+ICP Time (s) :  30
+Best match :  apple_1
+Good recognition :  No
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_5
+ICP Time (s) :  344
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_5
+ICP Time (s) :  300
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_1
+ICP Time (s) :  155
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_1
+ICP Time (s) :  135
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_6
+ICP Time (s) :  380
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_6
+ICP Time (s) :  340
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_C
+ICP Time (s) :  3895
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_C
+ICP Time (s) :  3396
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_4
+ICP Time (s) :  370
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_4
+ICP Time (s) :  330
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_3
+ICP Time (s) :  475
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_3
+ICP Time (s) :  425
+Good recognition :  Unable to find a good match
+------------------------
+FINE RECOGNITION (with full pointcloud)
+Surface test :  crate_2
+ICP Time (s) :  450
+Good recognition :  Unable to find a good match
+
+COARSE RECOGNITION (with sampled pointcloud)
+Surface test :  crate_2
+ICP Time (s) :  393
+Good recognition :  Unable to find a good match
+------------------------
+The fine recognition percentage is 53.6585%
+The percentage of unrecognized objects with fine recognition is 60.5769%
+The coarse recognition percentage is 53.6585%
+The percentage of unrecognized objects with coarse recognition is 60.5769%

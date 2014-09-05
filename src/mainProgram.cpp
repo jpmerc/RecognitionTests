@@ -195,7 +195,8 @@ void oneLoop(const std::string& p_cvfhSignature, const std::string& p_object, in
             std::cout << "Finding Hypotheses for Recognition" << std::endl;
 
             // *Recognition
-            std::vector<std::vector<int> > NN_object_indices = objectRecon.getNNSurfaces(signatureLoaded_ptr,signatureCloud_ptr,5);
+            std::vector<float> distances;
+            std::vector<std::vector<int> > NN_object_indices = objectRecon.getNNSurfaces(signatureLoaded_ptr,signatureCloud_ptr,5,distances);
             std::vector<pcl::PointCloud<PointT>::Ptr> pc_hypotheses;
             for(int i=0; i < NN_object_indices.at(1).size(); i++){
                 int pc_index = getPointCloudIndexFromHistogramIndex(NN_object_indices.at(1).at(i),&signaturesPerObject);
